@@ -1,1 +1,1 @@
-CRONUS New Zealand Ltd. demonstration database
+<span data-ttu-id="07c8f-101">CRONUS New Zealand Ltd.</span><span class="sxs-lookup"><span data-stu-id="07c8f-101">CRONUS International Ltd.</span></span> <span data-ttu-id="07c8f-102">demonstration database</span><span class="sxs-lookup"><span data-stu-id="07c8f-102">demonstration database</span></span>
