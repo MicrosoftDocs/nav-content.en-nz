@@ -1,38 +1,43 @@
 ---
-title: Automatically Record Interactions with Contacts
+title: Overview of Pre-Closing Reports to Verify Account Accuracy
+description: Provides an overview of the reports you can use to verify the accuracy of accounts before closing the books at the end of a year or period.
+documentationcenter: 
 author: jswymer
-ms.custom: na
-ms.date: 09/16/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
-ms.openlocfilehash: 1be15b94abf24da46dd0c46ce217aeb74378f400
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 06/02/2017
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: e6bb6a16046d15ac3adb97c24e3d8827be0c213f
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/19/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-# <a name="prepare-pre-closing-reports"></a><span data-ttu-id="8dd6a-102">Prepare Pre-Closing Reports</span><span class="sxs-lookup"><span data-stu-id="8dd6a-102">Prepare Pre-Closing Reports</span></span>
-<span data-ttu-id="8dd6a-103">There are many standard reports that you can use to verify the accuracy of the accounts before closing the books at the end of a year or period.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-103">There are many standard reports that you can use to verify the accuracy of the accounts before closing the books at the end of a year or period.</span></span> <span data-ttu-id="8dd6a-104">For example, you can use the **Customer - Trial Balance** report to verify that the balance for a customer posting group is equal to the balance on the corresponding general ledger account on a certain date.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-104">For example, you can use the **Customer - Trial Balance** report to verify that the balance for a customer posting group is equal to the balance on the corresponding general ledger account on a certain date.</span></span>
+# <a name="using-pre-closing-reports"></a><span data-ttu-id="a1d68-103">Using Pre-Closing Reports</span><span class="sxs-lookup"><span data-stu-id="a1d68-103">Using Pre-Closing Reports</span></span>
+<span data-ttu-id="a1d68-104">There are many standard reports that you can use to verify the accuracy of the accounts before closing the books at the end of a year or period.</span><span class="sxs-lookup"><span data-stu-id="a1d68-104">There are many standard reports that you can use to verify the accuracy of the accounts before closing the books at the end of a year or period.</span></span> <span data-ttu-id="a1d68-105">For example, you can use the **Customer - Trial Balance** report to verify that the balance for a customer posting group is equal to the balance on the corresponding general ledger account on a certain date.</span><span class="sxs-lookup"><span data-stu-id="a1d68-105">For example, you can use the **Customer - Trial Balance** report to verify that the balance for a customer posting group is equal to the balance on the corresponding general ledger account on a certain date.</span></span>
 
-<span data-ttu-id="8dd6a-105">The following table describes a number of reports that may be useful in this process along with the report name.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-105">The following table describes a number of reports that may be useful in this process along with the report name.</span></span>
+<span data-ttu-id="a1d68-106">The following table describes a number of reports that may be useful in this process.</span><span class="sxs-lookup"><span data-stu-id="a1d68-106">The following table describes a number of reports that may be useful in this process.</span></span>
 
-|<span data-ttu-id="8dd6a-106">To</span><span class="sxs-lookup"><span data-stu-id="8dd6a-106">To</span></span>     |<span data-ttu-id="8dd6a-107">See this report</span><span class="sxs-lookup"><span data-stu-id="8dd6a-107">See this report</span></span>       |
-|-------|----------------------|
-|<span data-ttu-id="8dd6a-108">Print a detailed trial balance report for one or more bank accounts with additional information about individual entries.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-108">Print a detailed trial balance report for one or more bank accounts with additional information about individual entries.</span></span>|<span data-ttu-id="8dd6a-109">Bank Acc.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-109">Bank Acc.</span></span> <span data-ttu-id="8dd6a-110">- Detail Trial Bal.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-110">- Detail Trial Bal.</span></span>|
-|<span data-ttu-id="8dd6a-111">Print a detail trial balance for selected customers.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-111">Print a detail trial balance for selected customers.</span></span>|<span data-ttu-id="8dd6a-112">Customer - Trial Balance</span><span class="sxs-lookup"><span data-stu-id="8dd6a-112">Customer - Trial Balance</span></span>|
-|<span data-ttu-id="8dd6a-113">Print a detail trial balance with detailed information about individual entries, for selected customers during a selected period.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-113">Print a detail trial balance with detailed information about individual entries, for selected customers during a selected period.</span></span>|<span data-ttu-id="8dd6a-114">Customer - Detail Trial Bal.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-114">Customer - Detail Trial Bal.</span></span>|
-|<span data-ttu-id="8dd6a-115">Print a detail trial balance for selected vendors.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-115">Print a detail trial balance for selected vendors.</span></span>|<span data-ttu-id="8dd6a-116">Vendor - Trial Balance</span><span class="sxs-lookup"><span data-stu-id="8dd6a-116">Vendor - Trial Balance</span></span>|
-|<span data-ttu-id="8dd6a-117">Print a detail trial balance with detailed information about individual entries, for selected vendors during a selected period.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-117">Print a detail trial balance with detailed information about individual entries, for selected vendors during a selected period.</span></span>|<span data-ttu-id="8dd6a-118">Vendor - Detail Trial Balance</span><span class="sxs-lookup"><span data-stu-id="8dd6a-118">Vendor - Detail Trial Balance</span></span>|
-|<span data-ttu-id="8dd6a-119">Print a trial balance with the current year's and the previous year's figures.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-119">Print a trial balance with the current year's and the previous year's figures.</span></span>|<span data-ttu-id="8dd6a-120">Closing Trial Balance</span><span class="sxs-lookup"><span data-stu-id="8dd6a-120">Closing Trial Balance</span></span>|
-|<span data-ttu-id="8dd6a-121">Print a detailed trial balance report for general ledger account balances.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-121">Print a detailed trial balance report for general ledger account balances.</span></span>|<span data-ttu-id="8dd6a-122">Detail Trial Balance</span><span class="sxs-lookup"><span data-stu-id="8dd6a-122">Detail Trial Balance</span></span>|
-|<span data-ttu-id="8dd6a-123">Print a trial balance report with balances and net changes for general ledger accounts.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-123">Print a trial balance report with balances and net changes for general ledger accounts.</span></span>|<span data-ttu-id="8dd6a-124">Trial Balance</span><span class="sxs-lookup"><span data-stu-id="8dd6a-124">Trial Balance</span></span>|
-|<span data-ttu-id="8dd6a-125">Print a trial balance for a consolidated company.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-125">Print a trial balance for a consolidated company.</span></span>|<span data-ttu-id="8dd6a-126">Consolidated Trial Balance</span><span class="sxs-lookup"><span data-stu-id="8dd6a-126">Consolidated Trial Balance</span></span>|
-<span data-ttu-id="8dd6a-127">To see a report, in the top right corner, choose the **Search for Page or Report** icon, type the name as it appears in the table, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="8dd6a-127">To see a report, in the top right corner, choose the **Search for Page or Report** icon, type the name as it appears in the table, and then choose the related link.</span></span>
+| <span data-ttu-id="a1d68-107">To</span><span class="sxs-lookup"><span data-stu-id="a1d68-107">To</span></span> | <span data-ttu-id="a1d68-108">See this report</span><span class="sxs-lookup"><span data-stu-id="a1d68-108">See this report</span></span> |
+| --- | --- |
+| <span data-ttu-id="a1d68-109">Print a detailed trial balance report for one or more bank accounts with additional information about individual entries.</span><span class="sxs-lookup"><span data-stu-id="a1d68-109">Print a detailed trial balance report for one or more bank accounts with additional information about individual entries.</span></span> |<span data-ttu-id="a1d68-110">Bank Acc. - Detail Trial Bal.</span><span class="sxs-lookup"><span data-stu-id="a1d68-110">Bank Acc. - Detail Trial Bal.</span></span> |
+| <span data-ttu-id="a1d68-111">Print a detail trial balance for selected customers.</span><span class="sxs-lookup"><span data-stu-id="a1d68-111">Print a detail trial balance for selected customers.</span></span> |<span data-ttu-id="a1d68-112">Customer - Trial Balance</span><span class="sxs-lookup"><span data-stu-id="a1d68-112">Customer - Trial Balance</span></span> |
+| <span data-ttu-id="a1d68-113">Print a detail trial balance with detailed information about individual entries, for selected customers during a selected period.</span><span class="sxs-lookup"><span data-stu-id="a1d68-113">Print a detail trial balance with detailed information about individual entries, for selected customers during a selected period.</span></span> |<span data-ttu-id="a1d68-114">Customer - Detail Trial Bal.</span><span class="sxs-lookup"><span data-stu-id="a1d68-114">Customer - Detail Trial Bal.</span></span> |
+| <span data-ttu-id="a1d68-115">Print a detail trial balance for selected vendors.</span><span class="sxs-lookup"><span data-stu-id="a1d68-115">Print a detail trial balance for selected vendors.</span></span> |<span data-ttu-id="a1d68-116">Vendor - Trial Balance</span><span class="sxs-lookup"><span data-stu-id="a1d68-116">Vendor - Trial Balance</span></span> |
+| <span data-ttu-id="a1d68-117">Print a detail trial balance with detailed information about individual entries, for selected vendors during a selected period.</span><span class="sxs-lookup"><span data-stu-id="a1d68-117">Print a detail trial balance with detailed information about individual entries, for selected vendors during a selected period.</span></span> |<span data-ttu-id="a1d68-118">Vendor - Detail Trial Balance</span><span class="sxs-lookup"><span data-stu-id="a1d68-118">Vendor - Detail Trial Balance</span></span> |
+| <span data-ttu-id="a1d68-119">Print a trial balance with the current year's and the previous year's figures.</span><span class="sxs-lookup"><span data-stu-id="a1d68-119">Print a trial balance with the current year's and the previous year's figures.</span></span> |<span data-ttu-id="a1d68-120">Closing Trial Balance</span><span class="sxs-lookup"><span data-stu-id="a1d68-120">Closing Trial Balance</span></span> |
+| <span data-ttu-id="a1d68-121">Print a detailed trial balance report for general ledger account balances.</span><span class="sxs-lookup"><span data-stu-id="a1d68-121">Print a detailed trial balance report for general ledger account balances.</span></span> |<span data-ttu-id="a1d68-122">Detail Trial Balance</span><span class="sxs-lookup"><span data-stu-id="a1d68-122">Detail Trial Balance</span></span> |
+| <span data-ttu-id="a1d68-123">Print a trial balance report with balances and net changes for general ledger accounts.</span><span class="sxs-lookup"><span data-stu-id="a1d68-123">Print a trial balance report with balances and net changes for general ledger accounts.</span></span> |<span data-ttu-id="a1d68-124">Trial Balance</span><span class="sxs-lookup"><span data-stu-id="a1d68-124">Trial Balance</span></span> |
+| <span data-ttu-id="a1d68-125">Print a trial balance for a consolidated company.</span><span class="sxs-lookup"><span data-stu-id="a1d68-125">Print a trial balance for a consolidated company.</span></span> |<span data-ttu-id="a1d68-126">Consolidated Trial Balance</span><span class="sxs-lookup"><span data-stu-id="a1d68-126">Consolidated Trial Balance</span></span> |
 
-## <a name="see-also"></a><span data-ttu-id="8dd6a-128">See Also</span><span class="sxs-lookup"><span data-stu-id="8dd6a-128">See Also</span></span>
-[<span data-ttu-id="8dd6a-129">Close Years and Periods</span><span class="sxs-lookup"><span data-stu-id="8dd6a-129">Close Years and Periods</span></span>](year-close-years-periods.md)
+<span data-ttu-id="a1d68-127">To see a report, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, type the name as it appears in the table, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="a1d68-127">To see a report, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, type the name as it appears in the table, and then choose the related link.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="a1d68-128">See Also</span><span class="sxs-lookup"><span data-stu-id="a1d68-128">See Also</span></span>
+[<span data-ttu-id="a1d68-129">Closing Years and Periods</span><span class="sxs-lookup"><span data-stu-id="a1d68-129">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+<span data-ttu-id="a1d68-130">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a1d68-130">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+
 

@@ -1,37 +1,59 @@
 ---
-title: Allocate Costs and Income
-author: jswymer
-ms.custom: na
-ms.date: 09/16/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
+title: Overview of Tasks to Allocate Costs and Income
+description: Outlines the tasks to allocate an entry in a general journal to several different accounts when you post the journal.
+documentationcenter: 
+author: SorenGP
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
-ms.openlocfilehash: 9d8a3cf496a65a095f22b39a0c70b5c959095b60
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 06/07/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: fdb03090dc9ba024d84a175e313f7d530bd0feae
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/19/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-# <a name="allocate-costs-and-income"></a><span data-ttu-id="aeeed-102">Allocate Costs and Income</span><span class="sxs-lookup"><span data-stu-id="aeeed-102">Allocate Costs and Income</span></span>
-<span data-ttu-id="aeeed-103">You can allocate an entry in a general journal to several different accounts when you post the journal.</span><span class="sxs-lookup"><span data-stu-id="aeeed-103">You can allocate an entry in a general journal to several different accounts when you post the journal.</span></span> <span data-ttu-id="aeeed-104">The allocation can be made by three different methods:</span><span class="sxs-lookup"><span data-stu-id="aeeed-104">The allocation can be made by three different methods:</span></span>
+# <a name="how-to-allocate-costs-and-income"></a><span data-ttu-id="3d82d-103">How to: Allocate Costs and Income</span><span class="sxs-lookup"><span data-stu-id="3d82d-103">How to: Allocate Costs and Income</span></span>
+<span data-ttu-id="3d82d-104">You can allocate an entry in a general journal to several different accounts when you post the journal.</span><span class="sxs-lookup"><span data-stu-id="3d82d-104">You can allocate an entry in a general journal to several different accounts when you post the journal.</span></span> <span data-ttu-id="3d82d-105">The allocation can be made by three different methods:</span><span class="sxs-lookup"><span data-stu-id="3d82d-105">The allocation can be made by three different methods:</span></span>
 
-- <span data-ttu-id="aeeed-105">Quantity</span><span class="sxs-lookup"><span data-stu-id="aeeed-105">Quantity</span></span>
-- <span data-ttu-id="aeeed-106">Percentage (%)</span><span class="sxs-lookup"><span data-stu-id="aeeed-106">Percentage (%)</span></span>
-- <span data-ttu-id="aeeed-107">Amount</span><span class="sxs-lookup"><span data-stu-id="aeeed-107">Amount</span></span>
+* <span data-ttu-id="3d82d-106">Quantity</span><span class="sxs-lookup"><span data-stu-id="3d82d-106">Quantity</span></span>
+* <span data-ttu-id="3d82d-107">Percentage (%)</span><span class="sxs-lookup"><span data-stu-id="3d82d-107">Percentage (%)</span></span>
+* <span data-ttu-id="3d82d-108">Amount</span><span class="sxs-lookup"><span data-stu-id="3d82d-108">Amount</span></span>
 
-<span data-ttu-id="aeeed-108">The allocation features can be used with recurring journals and in fixed assets journals.</span><span class="sxs-lookup"><span data-stu-id="aeeed-108">The allocation features can be used with recurring journals and in fixed assets journals.</span></span>
+<span data-ttu-id="3d82d-109">The allocation features can be used with recurring general journals and in fixed assets journals.</span><span class="sxs-lookup"><span data-stu-id="3d82d-109">The allocation features can be used with recurring general journals and in fixed assets journals.</span></span>
 <!--You can also distribute the cost or revenue of a line to an intercompany partner when you post a sales or purchase document. When you post the document, a line will be posted in your general journal, and a corresponding line will be created in the intercompany outbox.-->
 
-<span data-ttu-id="aeeed-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="aeeed-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span> <span data-ttu-id="aeeed-110">These tasks are listed in the order in which they are generally performed.</span><span class="sxs-lookup"><span data-stu-id="aeeed-110">These tasks are listed in the order in which they are generally performed.</span></span>
+<span data-ttu-id="3d82d-110">The following procedures describe how to prepare to allocate costs in a recurring general journal by defining allocation keys.</span><span class="sxs-lookup"><span data-stu-id="3d82d-110">The following procedures describe how to prepare to allocate costs in a recurring general journal by defining allocation keys.</span></span> <span data-ttu-id="3d82d-111">When allocation keys are defined, you complete and post the journal like any other recurring general journal.</span><span class="sxs-lookup"><span data-stu-id="3d82d-111">When allocation keys are defined, you complete and post the journal like any other recurring general journal.</span></span> <span data-ttu-id="3d82d-112">For more information, see [Working with General Journals](ui-work-general-journals.md).</span><span class="sxs-lookup"><span data-stu-id="3d82d-112">For more information, see [Working with General Journals](ui-work-general-journals.md).</span></span>
 
-|<span data-ttu-id="aeeed-111">To</span><span class="sxs-lookup"><span data-stu-id="aeeed-111">To</span></span> |<span data-ttu-id="aeeed-112">See</span><span class="sxs-lookup"><span data-stu-id="aeeed-112">See</span></span> |
-|---|----|
-|<span data-ttu-id="aeeed-113">Fill in a recurring general journal and specify the allocation quantity, percentage, or amount for the relevant accounts or dimensions.</span><span class="sxs-lookup"><span data-stu-id="aeeed-113">Fill in a recurring general journal and specify the allocation quantity, percentage, or amount for the relevant accounts or dimensions.</span></span>|[<span data-ttu-id="aeeed-114">How to: Use Allocation Keys in General Journals</span><span class="sxs-lookup"><span data-stu-id="aeeed-114">How to: Use Allocation Keys in General Journals</span></span>](ui-how-use-allocation-keys-general-journals.md)|
-|<span data-ttu-id="aeeed-115">Change an allocation key that has already been set up.</span><span class="sxs-lookup"><span data-stu-id="aeeed-115">Change an allocation key that has already been set up.</span></span>|[<span data-ttu-id="aeeed-116">To change an allocation key</span><span class="sxs-lookup"><span data-stu-id="aeeed-116">To change an allocation key</span></span>](ui-how-use-allocation-keys-general-journals.md)|
+## <a name="to-set-up-allocation-keys"></a><span data-ttu-id="3d82d-113">To set up allocation keys</span><span class="sxs-lookup"><span data-stu-id="3d82d-113">To set up allocation keys</span></span>
+<span data-ttu-id="3d82d-114">You can allocate an entry in a recurring general journal to several different accounts when you post the journal.</span><span class="sxs-lookup"><span data-stu-id="3d82d-114">You can allocate an entry in a recurring general journal to several different accounts when you post the journal.</span></span> <span data-ttu-id="3d82d-115">The allocation can be made by quantity, percentage, or amount.</span><span class="sxs-lookup"><span data-stu-id="3d82d-115">The allocation can be made by quantity, percentage, or amount.</span></span>
+1. <span data-ttu-id="3d82d-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="3d82d-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="3d82d-117">Choose the **Batch Name** field to open the **General Journal Batches** window.</span><span class="sxs-lookup"><span data-stu-id="3d82d-117">Choose the **Batch Name** field to open the **General Journal Batches** window.</span></span>
+3. <span data-ttu-id="3d82d-118">You can either modify allocations on an existing batch in the list or create a new batch with allocations.</span><span class="sxs-lookup"><span data-stu-id="3d82d-118">You can either modify allocations on an existing batch in the list or create a new batch with allocations.</span></span>
+   * <span data-ttu-id="3d82d-119">To create a new batch, choose the **New** action, and go to the next step.</span><span class="sxs-lookup"><span data-stu-id="3d82d-119">To create a new batch, choose the **New** action, and go to the next step.</span></span>
+   * <span data-ttu-id="3d82d-120">To change the allocations of an existing journal, select the journal and go to step 7.</span><span class="sxs-lookup"><span data-stu-id="3d82d-120">To change the allocations of an existing journal, select the journal and go to step 7.</span></span>    
+4. <span data-ttu-id="3d82d-121">In the **Name** field, enter a name for the batch, such as CLEANING.</span><span class="sxs-lookup"><span data-stu-id="3d82d-121">In the **Name** field, enter a name for the batch, such as CLEANING.</span></span> <span data-ttu-id="3d82d-122">In the **Description** field, enter a description, such as Cleaning Expenses Journal.</span><span class="sxs-lookup"><span data-stu-id="3d82d-122">In the **Description** field, enter a description, such as Cleaning Expenses Journal.</span></span>
+5. <span data-ttu-id="3d82d-123">When you are done, close the window.</span><span class="sxs-lookup"><span data-stu-id="3d82d-123">When you are done, close the window.</span></span> <span data-ttu-id="3d82d-124">A new, empty recurring journal opens.</span><span class="sxs-lookup"><span data-stu-id="3d82d-124">A new, empty recurring journal opens.</span></span>
+6. <span data-ttu-id="3d82d-125">Fill in the fields on the line.</span><span class="sxs-lookup"><span data-stu-id="3d82d-125">Fill in the fields on the line.</span></span>
+7. <span data-ttu-id="3d82d-126">Choose the **Allocations** action.</span><span class="sxs-lookup"><span data-stu-id="3d82d-126">Choose the **Allocations** action.</span></span>
+8. <span data-ttu-id="3d82d-127">Add a line for each allocation.</span><span class="sxs-lookup"><span data-stu-id="3d82d-127">Add a line for each allocation.</span></span> <span data-ttu-id="3d82d-128">You must fill in either the **Allocation %**, **Allocation Quantity**, or **Amount** field.</span><span class="sxs-lookup"><span data-stu-id="3d82d-128">You must fill in either the **Allocation %**, **Allocation Quantity**, or **Amount** field.</span></span> <span data-ttu-id="3d82d-129">You must also fill in the **Account No.** field and, if you are allocating the transaction among global dimensions, the global dimension fields.</span><span class="sxs-lookup"><span data-stu-id="3d82d-129">You must also fill in the **Account No.** field and, if you are allocating the transaction among global dimensions, the global dimension fields.</span></span>
+9. <span data-ttu-id="3d82d-130">If you enter a percentage on a line, the amount in the **Amount** field is calculated automatically.</span><span class="sxs-lookup"><span data-stu-id="3d82d-130">If you enter a percentage on a line, the amount in the **Amount** field is calculated automatically.</span></span> <span data-ttu-id="3d82d-131">These amounts have the opposite sign from the total amount in the **Amount** field in the recurring journal.</span><span class="sxs-lookup"><span data-stu-id="3d82d-131">These amounts have the opposite sign from the total amount in the **Amount** field in the recurring journal.</span></span>
+10. <span data-ttu-id="3d82d-132">After entering the allocations lines, choose **OK** to return to the **Recurring General Journal** window.</span><span class="sxs-lookup"><span data-stu-id="3d82d-132">After entering the allocations lines, choose **OK** to return to the **Recurring General Journal** window.</span></span> <span data-ttu-id="3d82d-133">The **Allocated Amt. (NZD)** field is filled in and matches the **Amount** field.</span><span class="sxs-lookup"><span data-stu-id="3d82d-133">The **Allocated Amt. (USD)** field is filled in and matches the **Amount** field.</span></span>
+11. <span data-ttu-id="3d82d-134">Post the journal.</span><span class="sxs-lookup"><span data-stu-id="3d82d-134">Post the journal.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="aeeed-117">See Also</span><span class="sxs-lookup"><span data-stu-id="aeeed-117">See Also</span></span>
-[<span data-ttu-id="aeeed-118">Close Years and Periods</span><span class="sxs-lookup"><span data-stu-id="aeeed-118">Close Years and Periods</span></span>](year-close-years-periods.md)
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a><span data-ttu-id="3d82d-135">To change an allocation key that has already been set up</span><span class="sxs-lookup"><span data-stu-id="3d82d-135">To change an allocation key that has already been set up</span></span>
+1. <span data-ttu-id="3d82d-136">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="3d82d-136">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="3d82d-137">In the **Recurring General Journal** window, select the journal with the allocation.</span><span class="sxs-lookup"><span data-stu-id="3d82d-137">In the **Recurring General Journal** window, select the journal with the allocation.</span></span>
+3. <span data-ttu-id="3d82d-138">Choose the line with the allocation, and then choose **Allocations** action.</span><span class="sxs-lookup"><span data-stu-id="3d82d-138">Choose the line with the allocation, and then choose **Allocations** action.</span></span>
+4. <span data-ttu-id="3d82d-139">Change the relevant fields, and then choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="3d82d-139">Change the relevant fields, and then choose the **OK** button.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="3d82d-140">See Also</span><span class="sxs-lookup"><span data-stu-id="3d82d-140">See Also</span></span>
+[<span data-ttu-id="3d82d-141">Closing Years and Periods</span><span class="sxs-lookup"><span data-stu-id="3d82d-141">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+<span data-ttu-id="3d82d-142">[Working with General Journals](ui-work-general-journals.md)  </span><span class="sxs-lookup"><span data-stu-id="3d82d-142">[Working with General Journals](ui-work-general-journals.md)  </span></span>  
+<span data-ttu-id="3d82d-143">[Posting Documents and Journals](ui-post-documents-journals.md)  </span><span class="sxs-lookup"><span data-stu-id="3d82d-143">[Posting Documents and Journals](ui-post-documents-journals.md)  </span></span>  
+<span data-ttu-id="3d82d-144">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="3d82d-144">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

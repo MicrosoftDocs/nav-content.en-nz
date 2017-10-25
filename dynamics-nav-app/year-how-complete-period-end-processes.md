@@ -1,62 +1,65 @@
 ---
-title: Close Periods
+title: Optional Activities for Closing Periods
+description: This topic outlines the optional processes and activities for closing accounting periods in Dynamics NAV.
+documentationcenter: 
 author: jswymer
-ms.custom: na
-ms.date: 09/16/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.prod: dynamics-nav-2017
 ms.topic: article
-ms-prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: ac1ed2d1dcf8bf780bda91fbf0a04e5c5e8d106a
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
+ms.date: 06/19/2017
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: ca22e72552c69d3bcb0b85101b586796ff026896
 ms.contentlocale: en-nz
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-# <a name="close-periods"></a><span data-ttu-id="d57dd-102">Close Periods</span><span class="sxs-lookup"><span data-stu-id="d57dd-102">Close Periods</span></span>
-<span data-ttu-id="d57dd-103">The application does not force you to close periods, however, there are many period-end (month-end) activities that can be performed in the application if you want.</span><span class="sxs-lookup"><span data-stu-id="d57dd-103">The application does not force you to close periods, however, there are many period-end (month-end) activities that can be performed in the application if you want.</span></span> <span data-ttu-id="d57dd-104">This topic provides an overview of these processes and activities, which may or may not be necessary for your company.</span><span class="sxs-lookup"><span data-stu-id="d57dd-104">This topic provides an overview of these processes and activities, which may or may not be necessary for your company.</span></span>
+# <a name="overview-of-tasks-to-close-accounting-periods"></a><span data-ttu-id="29eda-103">Overview of Tasks to Close Accounting Periods</span><span class="sxs-lookup"><span data-stu-id="29eda-103">Overview of Tasks to Close Accounting Periods</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="29eda-104"> does not force you to close periods, however, there are many period-end (month-end) activities that you can do.</span><span class="sxs-lookup"><span data-stu-id="29eda-104"> does not force you to close periods, however, there are many period-end (month-end) activities that you can do.</span></span> <span data-ttu-id="29eda-105">This topic provides an overview of optional processes and activities for closing periods.</span><span class="sxs-lookup"><span data-stu-id="29eda-105">This topic provides an overview of optional processes and activities for closing periods.</span></span>  
 
-## <a name="general-ledger"></a><span data-ttu-id="d57dd-105">General Ledger</span><span class="sxs-lookup"><span data-stu-id="d57dd-105">General Ledger</span></span>
-* <span data-ttu-id="d57dd-106">Specify system-wide and user-specific posting period.</span><span class="sxs-lookup"><span data-stu-id="d57dd-106">Specify system-wide and user-specific posting period.</span></span>
+## <a name="general-ledger"></a><span data-ttu-id="29eda-106">General Ledger</span><span class="sxs-lookup"><span data-stu-id="29eda-106">General Ledger</span></span>
+* <span data-ttu-id="29eda-107">Specify system-wide and user-specific posting periods.</span><span class="sxs-lookup"><span data-stu-id="29eda-107">Specify system-wide and user-specific posting periods.</span></span>  
 
-    <span data-ttu-id="d57dd-107">This specifies the dates between which postings are allowed.</span><span class="sxs-lookup"><span data-stu-id="d57dd-107">This specifies the dates between which postings are allowed.</span></span> <span data-ttu-id="d57dd-108">Depending on your business needs, you may want to restrict user posting date ranges at the start of the period-end process or at later time towards the end of the period.</span><span class="sxs-lookup"><span data-stu-id="d57dd-108">Depending on your business needs, you may want to restrict user posting date ranges at the start of the period-end process or at later time towards the end of the period.</span></span> <span data-ttu-id="d57dd-109">For more information, see [How to: Specify Posting Periods](finance-setup-how-specify-posting-periods.md).</span><span class="sxs-lookup"><span data-stu-id="d57dd-109">For more information, see [How to: Specify Posting Periods](finance-setup-how-specify-posting-periods.md).</span></span>
-* <span data-ttu-id="d57dd-110">Make all necessary G/L adjustments.</span><span class="sxs-lookup"><span data-stu-id="d57dd-110">Make all necessary G/L adjustments.</span></span>
-* <span data-ttu-id="d57dd-111">Update and post Recurring Journals.</span><span class="sxs-lookup"><span data-stu-id="d57dd-111">Update and post Recurring Journals.</span></span>
-<!--* Process Consolidations-->
-* <span data-ttu-id="d57dd-112">Run account schedules as follows:</span><span class="sxs-lookup"><span data-stu-id="d57dd-112">Run account schedules as follows:</span></span>
-  1. <span data-ttu-id="d57dd-113">Open the **Account Schedule** window, and choose the **Print** action.</span><span class="sxs-lookup"><span data-stu-id="d57dd-113">Open the **Account Schedule** window, and choose the **Print** action.</span></span>
-  2. <span data-ttu-id="d57dd-114">Fill the **Account Schedule** request window and choose the **Print** action.</span><span class="sxs-lookup"><span data-stu-id="d57dd-114">Fill the **Account Schedule** request window and choose the **Print** action.</span></span>
+    <span data-ttu-id="29eda-108">This specifies the dates between which you allow posting.</span><span class="sxs-lookup"><span data-stu-id="29eda-108">This specifies the dates between which you allow posting.</span></span> <span data-ttu-id="29eda-109">Depending on your business, you may want to allow posting at the start of the period, or toward the end.</span><span class="sxs-lookup"><span data-stu-id="29eda-109">Depending on your business, you may want to allow posting at the start of the period, or toward the end.</span></span> <span data-ttu-id="29eda-110">For more information, see [How to: Specify Posting Periods](finance-how-specify-posting-periods.md).</span><span class="sxs-lookup"><span data-stu-id="29eda-110">For more information, see [How to: Specify Posting Periods](finance-how-specify-posting-periods.md).</span></span>  
+* <span data-ttu-id="29eda-111">Make all necessary G/L adjustments.</span><span class="sxs-lookup"><span data-stu-id="29eda-111">Make all necessary G/L adjustments.</span></span>  
+* <span data-ttu-id="29eda-112">Update and post Recurring Journals.</span><span class="sxs-lookup"><span data-stu-id="29eda-112">Update and post Recurring Journals.</span></span>  
+  <!--* Process Consolidations-->
+* <span data-ttu-id="29eda-113">Run account schedules as follows:</span><span class="sxs-lookup"><span data-stu-id="29eda-113">Run account schedules as follows:</span></span>  
+  * <span data-ttu-id="29eda-114">Open the **Account Schedule** window, and then choose the **Print** action.</span><span class="sxs-lookup"><span data-stu-id="29eda-114">Open the **Account Schedule** window, and then choose the **Print** action.</span></span>  
 
-## <a name="sales--receivables"></a><span data-ttu-id="d57dd-115">Sales & Receivables</span><span class="sxs-lookup"><span data-stu-id="d57dd-115">Sales & Receivables</span></span>
-* <span data-ttu-id="d57dd-116">Post all sales orders, invoices, credit memos, and return orders.</span><span class="sxs-lookup"><span data-stu-id="d57dd-116">Post all sales orders, invoices, credit memos, and return orders.</span></span>
-* <span data-ttu-id="d57dd-117">Post all cash receipt journals.</span><span class="sxs-lookup"><span data-stu-id="d57dd-117">Post all cash receipt journals.</span></span>
-* <span data-ttu-id="d57dd-118">Update and post recurring journals that are related to Sales & Receivables.</span><span class="sxs-lookup"><span data-stu-id="d57dd-118">Update and post recurring journals that are related to Sales & Receivables.</span></span>
-* <span data-ttu-id="d57dd-119">Reconcile accounts receivable to the general ledger.</span><span class="sxs-lookup"><span data-stu-id="d57dd-119">Reconcile accounts receivable to the general ledger.</span></span>
-* <span data-ttu-id="d57dd-120">Run the **Delete Invoiced Sales Orders** batch job.</span><span class="sxs-lookup"><span data-stu-id="d57dd-120">Run the **Delete Invoiced Sales Orders** batch job.</span></span>
+## <a name="sales-and-receivables"></a><span data-ttu-id="29eda-115">Sales and Receivables</span><span class="sxs-lookup"><span data-stu-id="29eda-115">Sales and Receivables</span></span>
+* <span data-ttu-id="29eda-116">Post all sales orders, invoices, credit memos, and return orders.</span><span class="sxs-lookup"><span data-stu-id="29eda-116">Post all sales orders, invoices, credit memos, and return orders.</span></span>  
+* <span data-ttu-id="29eda-117">Post all cash receipt journals.</span><span class="sxs-lookup"><span data-stu-id="29eda-117">Post all cash receipt journals.</span></span>  
+* <span data-ttu-id="29eda-118">Update and post recurring journals that are related to sales and receivables.</span><span class="sxs-lookup"><span data-stu-id="29eda-118">Update and post recurring journals that are related to sales and receivables.</span></span>  
+* <span data-ttu-id="29eda-119">Reconcile accounts receivable to the general ledger.</span><span class="sxs-lookup"><span data-stu-id="29eda-119">Reconcile accounts receivable to the general ledger.</span></span>  
+* <span data-ttu-id="29eda-120">Run the **Delete Invoiced Sales Orders** batch job.</span><span class="sxs-lookup"><span data-stu-id="29eda-120">Run the **Delete Invoiced Sales Orders** batch job.</span></span>  
 
-## <a name="purchases--payables"></a><span data-ttu-id="d57dd-121">Purchases & Payables</span><span class="sxs-lookup"><span data-stu-id="d57dd-121">Purchases & Payables</span></span>
-* <span data-ttu-id="d57dd-122">Post all purchase orders, invoices, credit memos, and return orders.</span><span class="sxs-lookup"><span data-stu-id="d57dd-122">Post all purchase orders, invoices, credit memos, and return orders.</span></span>
-* <span data-ttu-id="d57dd-123">Post all payment journals.</span><span class="sxs-lookup"><span data-stu-id="d57dd-123">Post all payment journals.</span></span>
-* <span data-ttu-id="d57dd-124">Update and post recurring journals that are related to purchases & payables.</span><span class="sxs-lookup"><span data-stu-id="d57dd-124">Update and post recurring journals that are related to purchases & payables.</span></span>
-* <span data-ttu-id="d57dd-125">Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.</span><span class="sxs-lookup"><span data-stu-id="d57dd-125">Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.</span></span>
-* <span data-ttu-id="d57dd-126">Run the **Delete Invoiced Purchase Orders** batch job.</span><span class="sxs-lookup"><span data-stu-id="d57dd-126">Run the **Delete Invoiced Purchase Orders** batch job.</span></span>
+## <a name="purchases-and-payables"></a><span data-ttu-id="29eda-121">Purchases and Payables</span><span class="sxs-lookup"><span data-stu-id="29eda-121">Purchases and Payables</span></span>
+* <span data-ttu-id="29eda-122">Post all purchase orders, invoices, credit memos, and return orders.</span><span class="sxs-lookup"><span data-stu-id="29eda-122">Post all purchase orders, invoices, credit memos, and return orders.</span></span>  
+* <span data-ttu-id="29eda-123">Post all payment journals.</span><span class="sxs-lookup"><span data-stu-id="29eda-123">Post all payment journals.</span></span>  
+* <span data-ttu-id="29eda-124">Update and post recurring journals that are related to purchases & payables.</span><span class="sxs-lookup"><span data-stu-id="29eda-124">Update and post recurring journals that are related to purchases & payables.</span></span>  
+* <span data-ttu-id="29eda-125">Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.</span><span class="sxs-lookup"><span data-stu-id="29eda-125">Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.</span></span>  
+* <span data-ttu-id="29eda-126">Run the **Delete Invoiced Purchase Orders** batch job.</span><span class="sxs-lookup"><span data-stu-id="29eda-126">Run the **Delete Invoiced Purchase Orders** batch job.</span></span>  
 
-<!-- ### Fixed Assets
-* Post all maintenance costs have been posted through the fixed asset journals or invoices.
-* Post adjustments.
-* Post appreciation.
-* Post depreciation.
-* Update and post the recurring fixed asset journal.-->
+<span data-ttu-id="29eda-127">Fixed Assets</span><span class="sxs-lookup"><span data-stu-id="29eda-127">Fixed Assets</span></span>
+* <span data-ttu-id="29eda-128">Post all maintenance costs have been posted through the fixed asset journals or invoices.</span><span class="sxs-lookup"><span data-stu-id="29eda-128">Post all maintenance costs have been posted through the fixed asset journals or invoices.</span></span>
+* <span data-ttu-id="29eda-129">Post adjustments.</span><span class="sxs-lookup"><span data-stu-id="29eda-129">Post adjustments.</span></span>
+* <span data-ttu-id="29eda-130">Post appreciation.</span><span class="sxs-lookup"><span data-stu-id="29eda-130">Post appreciation.</span></span>
+* <span data-ttu-id="29eda-131">Post depreciation.</span><span class="sxs-lookup"><span data-stu-id="29eda-131">Post depreciation.</span></span>
+* <span data-ttu-id="29eda-132">Update and post the recurring fixed asset journal.</span><span class="sxs-lookup"><span data-stu-id="29eda-132">Update and post the recurring fixed asset journal.</span></span>
 
-<!--### Intercompany
-* Process Intercompany Postings.-->
+<span data-ttu-id="29eda-133">Intercompany</span><span class="sxs-lookup"><span data-stu-id="29eda-133">Intercompany</span></span>
+* <span data-ttu-id="29eda-134">Process Intercompany Transactions</span><span class="sxs-lookup"><span data-stu-id="29eda-134">Process Intercompany Transactions</span></span>
 
-## <a name="calculate-and-process-sales-tax"></a><span data-ttu-id="d57dd-127">Calculate and Process Sales Tax</span><span class="sxs-lookup"><span data-stu-id="d57dd-127">Calculate and Process Sales Tax</span></span>
-*  <span data-ttu-id="d57dd-128">Complete Tax Statements.</span><span class="sxs-lookup"><span data-stu-id="d57dd-128">Complete Tax Statements.</span></span>
+## <a name="calculate-and-process-sales-tax"></a><span data-ttu-id="29eda-135">Calculate and Process Sales Tax</span><span class="sxs-lookup"><span data-stu-id="29eda-135">Calculate and Process Sales Tax</span></span>
+* <span data-ttu-id="29eda-136">Complete Tax Statements.</span><span class="sxs-lookup"><span data-stu-id="29eda-136">Complete Tax Statements.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="d57dd-129">See Also</span><span class="sxs-lookup"><span data-stu-id="d57dd-129">See Also</span></span>
-[<span data-ttu-id="d57dd-130">Closing Years and Periods</span><span class="sxs-lookup"><span data-stu-id="d57dd-130">Closing Years and Periods</span></span>](year-close-years-periods.md)  
-[<span data-ttu-id="d57dd-131">Close Books</span><span class="sxs-lookup"><span data-stu-id="d57dd-131">Close Books</span></span>](year-close-books.md)
+## <a name="see-also"></a><span data-ttu-id="29eda-137">See Also</span><span class="sxs-lookup"><span data-stu-id="29eda-137">See Also</span></span>
+[<span data-ttu-id="29eda-138">Closing Years and Periods</span><span class="sxs-lookup"><span data-stu-id="29eda-138">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+[<span data-ttu-id="29eda-139">Closing Books</span><span class="sxs-lookup"><span data-stu-id="29eda-139">Closing Books</span></span>](year-close-books.md)  
+<span data-ttu-id="29eda-140">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="29eda-140">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

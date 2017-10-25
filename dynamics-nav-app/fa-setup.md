@@ -1,42 +1,49 @@
 ---
 title: Set Up Fixed Assets
+description: Learn about the sequence of tasks you must do to set up fixed assets, such as machinery or buildings.
+documentationcenter: 
 author: SorenGP
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.prod: dynamics-nav-2017
 ms.topic: article
-ms-prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 954c20f713752774bc3a7c0bc10d625962d1ccc2
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: machinery, buildings
+ms.date: 08/15/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: aa0f26de4911611d9326de3bbdbf0bb150bd3875
 ms.contentlocale: en-nz
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
+# <a name="setting-up-fixed-assets"></a><span data-ttu-id="0b4ff-103">Setting Up Fixed Assets</span><span class="sxs-lookup"><span data-stu-id="0b4ff-103">Setting Up Fixed Assets</span></span>
+<span data-ttu-id="0b4ff-104">Before you can work with Fixed Assets, you need to define a few things:</span><span class="sxs-lookup"><span data-stu-id="0b4ff-104">Before you can work with Fixed Assets, you need to define a few things:</span></span>  
 
-# <a name="set-up-fixed-assets"></a><span data-ttu-id="6fc08-102">Set Up Fixed Assets</span><span class="sxs-lookup"><span data-stu-id="6fc08-102">Set Up Fixed Assets</span></span>
-<span data-ttu-id="6fc08-103">Before you can use the Fixed Assets functionality, you must set up various information to define how you insure, maintain, and depreciate fixed assets, and how costs and other values are recorded in the general ledger.</span><span class="sxs-lookup"><span data-stu-id="6fc08-103">Before you can use the Fixed Assets functionality, you must set up various information to define how you insure, maintain, and depreciate fixed assets, and how costs and other values are recorded in the general ledger.</span></span>
+* <span data-ttu-id="0b4ff-105">How you insure, maintain, and depreciate fixed assets.</span><span class="sxs-lookup"><span data-stu-id="0b4ff-105">How you insure, maintain, and depreciate fixed assets.</span></span>  
+* <span data-ttu-id="0b4ff-106">How you record costs and other values in the general ledger.</span><span class="sxs-lookup"><span data-stu-id="0b4ff-106">How you record costs and other values in the general ledger.</span></span>  
 
-<span data-ttu-id="6fc08-104">When you have set up Fixed Assets, you can perform the various activities involved.</span><span class="sxs-lookup"><span data-stu-id="6fc08-104">When you have set up Fixed Assets, you can perform the various activities involved.</span></span> <span data-ttu-id="6fc08-105">For more information, see [How to: Manage Fixed Assets](fa-manage.md).</span><span class="sxs-lookup"><span data-stu-id="6fc08-105">For more information, see [How to: Manage Fixed Assets](fa-manage.md).</span></span>
+<span data-ttu-id="0b4ff-107">The table below has links to more information.</span><span class="sxs-lookup"><span data-stu-id="0b4ff-107">The table below has links to more information.</span></span> <span data-ttu-id="0b4ff-108">After you set those things up, you can start various activities.</span><span class="sxs-lookup"><span data-stu-id="0b4ff-108">After you set those things up, you can start various activities.</span></span> <span data-ttu-id="0b4ff-109">For more information, see [Fixed Assets](fa-manage.md).</span><span class="sxs-lookup"><span data-stu-id="0b4ff-109">For more information, see [Fixed Assets](fa-manage.md).</span></span>  
 
-<span data-ttu-id="6fc08-106">**Note**: You can record fixed asset transactions in the **Fixed Asset G/L Journal** window or in the **Fixed Asset Journal** window, depending on whether the transactions are for financial reporting or for internal management.</span><span class="sxs-lookup"><span data-stu-id="6fc08-106">**Note**: You can record fixed asset transactions in the **Fixed Asset G/L Journal** window or in the **Fixed Asset Journal** window, depending on whether the transactions are for financial reporting or for internal management.</span></span> <span data-ttu-id="6fc08-107">Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window.</span><span class="sxs-lookup"><span data-stu-id="6fc08-107">Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window.</span></span>
+> [!NOTE]  
+>   <span data-ttu-id="0b4ff-110">You can record fixed asset transactions in the **Fixed Asset G/L Journal** or **Fixed Asset Journal** windows, depending on whether the transactions are for financial reporting or for internal management.</span><span class="sxs-lookup"><span data-stu-id="0b4ff-110">You can record fixed asset transactions in the **Fixed Asset G/L Journal** or **Fixed Asset Journal** windows, depending on whether the transactions are for financial reporting or for internal management.</span></span> <span data-ttu-id="0b4ff-111">Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window.</span><span class="sxs-lookup"><span data-stu-id="0b4ff-111">Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window.</span></span>  
 
-<span data-ttu-id="6fc08-108">When you select a check box for a fixed asset activity in the **G/L Integration** section in the **Depreciation Book Card** window, then the **Fixed Asset G/L Journal** window will be used to post transactions for the activity in question.</span><span class="sxs-lookup"><span data-stu-id="6fc08-108">When you select a check box for a fixed asset activity in the **G/L Integration** section in the **Depreciation Book Card** window, then the **Fixed Asset G/L Journal** window will be used to post transactions for the activity in question.</span></span>
+<span data-ttu-id="0b4ff-112">When you enable a fixed asset activity in the **G/L Integration** section in the **Depreciation Book Card** window, the **Fixed Asset G/L Journal** window is used to post transactions for the activity.</span><span class="sxs-lookup"><span data-stu-id="0b4ff-112">When you enable a fixed asset activity in the **G/L Integration** section in the **Depreciation Book Card** window, the **Fixed Asset G/L Journal** window is used to post transactions for the activity.</span></span>
 
-<span data-ttu-id="6fc08-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="6fc08-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="0b4ff-113">The following table describes a sequence of tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="0b4ff-113">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>  
 
-| <span data-ttu-id="6fc08-110">To</span><span class="sxs-lookup"><span data-stu-id="6fc08-110">To</span></span> | <span data-ttu-id="6fc08-111">See</span><span class="sxs-lookup"><span data-stu-id="6fc08-111">See</span></span> |  
-|----|-----|  
-|<span data-ttu-id="6fc08-112">Set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting, and set up fixed asset classes and subclasses, such as Tangible and Intangible.</span><span class="sxs-lookup"><span data-stu-id="6fc08-112">Set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting, and set up fixed asset classes and subclasses, such as Tangible and Intangible.</span></span>|[<span data-ttu-id="6fc08-113">How to: Set Up General Fixed Assets Information</span><span class="sxs-lookup"><span data-stu-id="6fc08-113">How to: Set Up General Fixed Assets Information</span></span>](fa-how-setup-general.md)|  
-|<span data-ttu-id="6fc08-114">Create depreciation books, define various depreciation methods, integrate with the general ledger, and enable duplication of entries in several depreciation books.</span><span class="sxs-lookup"><span data-stu-id="6fc08-114">Create depreciation books, define various depreciation methods, integrate with the general ledger, and enable duplication of entries in several depreciation books.</span></span>|[<span data-ttu-id="6fc08-115">How to: Set Up Fixed Asset Depreciation</span><span class="sxs-lookup"><span data-stu-id="6fc08-115">How to: Set Up Fixed Asset Depreciation</span></span>](fa-how-setup-depreciation.md)|
-|<span data-ttu-id="6fc08-116">Enable insurance of fixed assets, set up general insurance information, an insurance card per policy, and prepare journals to post insurance costs.</span><span class="sxs-lookup"><span data-stu-id="6fc08-116">Enable insurance of fixed assets, set up general insurance information, an insurance card per policy, and prepare journals to post insurance costs.</span></span>|[<span data-ttu-id="6fc08-117">How to: Set Up Fixed Asset Insurance</span><span class="sxs-lookup"><span data-stu-id="6fc08-117">How to: Set Up Fixed Asset Insurance</span></span>](fa-how-setup-insurance.md)|
-|<span data-ttu-id="6fc08-118">Enable maintenance of fixed assets, set up general maintenance information, set up maintenance posting accounts, and define types of maintenance work.</span><span class="sxs-lookup"><span data-stu-id="6fc08-118">Enable maintenance of fixed assets, set up general maintenance information, set up maintenance posting accounts, and define types of maintenance work.</span></span>|[<span data-ttu-id="6fc08-119">How to: Set Up Fixed Asset Maintenance</span><span class="sxs-lookup"><span data-stu-id="6fc08-119">How to: Set Up Fixed Asset Maintenance</span></span>](fa-how-setup-maintenance.md)|
-|<span data-ttu-id="6fc08-120">Learn about different fixed asset depreciation methods.</span><span class="sxs-lookup"><span data-stu-id="6fc08-120">Learn about different fixed asset depreciation methods.</span></span>|[<span data-ttu-id="6fc08-121">Depreciation Methods</span><span class="sxs-lookup"><span data-stu-id="6fc08-121">Depreciation Methods</span></span>](fa-depreciation-methods.md)|
+| <span data-ttu-id="0b4ff-114">To</span><span class="sxs-lookup"><span data-stu-id="0b4ff-114">To</span></span> | <span data-ttu-id="0b4ff-115">See</span><span class="sxs-lookup"><span data-stu-id="0b4ff-115">See</span></span> |
+| --- | --- |
+| <span data-ttu-id="0b4ff-116">Set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting, and set up fixed asset classes and subclasses, such as Tangible and Intangible.</span><span class="sxs-lookup"><span data-stu-id="0b4ff-116">Set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting, and set up fixed asset classes and subclasses, such as Tangible and Intangible.</span></span> |[<span data-ttu-id="0b4ff-117">How to: Set Up General Fixed Assets Information</span><span class="sxs-lookup"><span data-stu-id="0b4ff-117">How to: Set Up General Fixed Assets Information</span></span>](fa-how-setup-general.md) |
+| <span data-ttu-id="0b4ff-118">Create depreciation books, define various depreciation methods, integrate with the general ledger, and enable duplication of entries in several depreciation books.</span><span class="sxs-lookup"><span data-stu-id="0b4ff-118">Create depreciation books, define various depreciation methods, integrate with the general ledger, and enable duplication of entries in several depreciation books.</span></span> |[<span data-ttu-id="0b4ff-119">How to: Set Up Fixed Asset Depreciation</span><span class="sxs-lookup"><span data-stu-id="0b4ff-119">How to: Set Up Fixed Asset Depreciation</span></span>](fa-how-setup-depreciation.md) |
+| <span data-ttu-id="0b4ff-120">Enable insurance of fixed assets, set up general insurance information, an insurance card per policy, and prepare journals to post insurance costs.</span><span class="sxs-lookup"><span data-stu-id="0b4ff-120">Enable insurance of fixed assets, set up general insurance information, an insurance card per policy, and prepare journals to post insurance costs.</span></span> |[<span data-ttu-id="0b4ff-121">How to: Set Up Fixed Asset Insurance</span><span class="sxs-lookup"><span data-stu-id="0b4ff-121">How to: Set Up Fixed Asset Insurance</span></span>](fa-how-setup-insurance.md) |
+| <span data-ttu-id="0b4ff-122">Enable maintenance of fixed assets, set up general maintenance information, set up maintenance posting accounts, and define types of maintenance work.</span><span class="sxs-lookup"><span data-stu-id="0b4ff-122">Enable maintenance of fixed assets, set up general maintenance information, set up maintenance posting accounts, and define types of maintenance work.</span></span> |[<span data-ttu-id="0b4ff-123">How to: Set Up Fixed Asset Maintenance</span><span class="sxs-lookup"><span data-stu-id="0b4ff-123">How to: Set Up Fixed Asset Maintenance</span></span>](fa-how-setup-maintenance.md) |
+| <span data-ttu-id="0b4ff-124">Learn about different fixed asset depreciation methods.</span><span class="sxs-lookup"><span data-stu-id="0b4ff-124">Learn about different fixed asset depreciation methods.</span></span> |[<span data-ttu-id="0b4ff-125">Depreciation Methods</span><span class="sxs-lookup"><span data-stu-id="0b4ff-125">Depreciation Methods</span></span>](fa-depreciation-methods.md) |
 
-## <a name="see-also"></a><span data-ttu-id="6fc08-122">See Also</span><span class="sxs-lookup"><span data-stu-id="6fc08-122">See Also</span></span>
-[<span data-ttu-id="6fc08-123">Manage Fixed Assets</span><span class="sxs-lookup"><span data-stu-id="6fc08-123">Manage Fixed Assets</span></span>](fa-manage.md)  
-[<span data-ttu-id="6fc08-124">Finance</span><span class="sxs-lookup"><span data-stu-id="6fc08-124">Finance</span></span>](finance-setup.md)  
-[<span data-ttu-id="6fc08-125">Welcome to Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="6fc08-125">Welcome to Dynamics NAV</span></span>](across-get-started.md)
+## <a name="see-also"></a><span data-ttu-id="0b4ff-126">See Also</span><span class="sxs-lookup"><span data-stu-id="0b4ff-126">See Also</span></span>
+[<span data-ttu-id="0b4ff-127">Fixed Assets</span><span class="sxs-lookup"><span data-stu-id="0b4ff-127">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="0b4ff-128">Finance</span><span class="sxs-lookup"><span data-stu-id="0b4ff-128">Finance</span></span>](finance.md)  
+<span data-ttu-id="0b4ff-129">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="0b4ff-129">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="0b4ff-130">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0b4ff-130">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
