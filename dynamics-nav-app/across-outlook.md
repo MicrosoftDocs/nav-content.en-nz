@@ -7,12 +7,12 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 647ebd5d4f47a367c86fc02057e28c514a433aec
+ms.prod: dynamics-nav-2017
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: cf4202c3b7186eb1dd4633f74d2d48664458455e
 ms.contentlocale: en-nz
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
 
@@ -27,7 +27,7 @@ In Dynamics NAV, one of the assisted setup guides is **Set Up Office Add-Ins**. 
 The new add-in is added to the Outlook ribbon, and in Outlook Web Access, you can see it in the add-in ribbon, immediately above the body of the email message.  
 
 ## <a name="using-the-add-in"></a>Using the add-in
-When you get a message from a customer, directly in Outlook, you can open the Dynamics NAV add-in, which recognizes the customer, and opens the customer card for his company. From this dashboard, you can see overview information for the customer, as well as drill down for more detail on specific documents. You can also dig into the sales history for the customer.
+When you get a message from a customer, directly in Outlook, you can open the Dynamics NAV add-in, which recognises the customer, and opens the customer card for his company. From this dashboard, you can see overview information for the customer, as well as drill down for more detail on specific documents. You can also dig into the sales history for the customer.
 In the add-in, you can create a sales quote and send it back to this customer without leaving Outlook. All of the information that you need to send the sales quote is available in your business inbox in Outlook.  
 Once you have the data entered, you can post the quote. You can then send it by email. Dynamics NAV generates a .PDF file with the sales quote and attaches it to the email message that you draft in the add-in.  
 
@@ -44,7 +44,7 @@ In the Document Links add-in, you can modify and take actions with the document,
 
 ## <a name="see-also"></a>See Also
 [Welcome to Dynamics NAV](across-get-started.md)  
-[Finance](finance-setup.md)  
+[Finance](finance.md)  
 [Manage Sales](sales-manage-sales.md)  
 [Manage Purchasing](purchasing-manage-purchasing.md)  
 

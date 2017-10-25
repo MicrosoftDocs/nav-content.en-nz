@@ -1,1 +1,1 @@
-CRONUS New Zealand Ltd. demonstration database
+CRONUS International Ltd. demonstration database
