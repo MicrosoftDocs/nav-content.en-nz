@@ -3,7 +3,7 @@ title: How to Print Bank Account Reconciliation Reports
 description: The **Bank Account Reconciliation** report displays open bank ledger entries as unpresented cheques or unrecorded deposits.
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

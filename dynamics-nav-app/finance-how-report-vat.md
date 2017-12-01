@@ -2,7 +2,7 @@
 title: Submit GST Reports to GST Authorities
 description: Learn how to prepare reports that lists GST from sales during a period, or from sales and purchases, and submit the report to a tax authority.
 author: bholtorf
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
